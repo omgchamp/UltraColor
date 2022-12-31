@@ -13,7 +13,7 @@ import org.mineacademy.fo.command.SimpleCommand;
 @AutoRegister
 public final class ChatColorCommand extends SimpleCommand {
 	public ChatColorCommand() {
-		super("chatcolor|cc");
+		super("ultrachatcolor|ucc");
 		setPermission(UltraColorPermissions.CHAT_COLOR);
 		setPermissionMessage(Localization.Other.NO_PERMISSION.replace("{permission}", UltraColorPermissions.CHAT_COLOR));
 		setDescription("Opens the Chat Color GUI menu!");
