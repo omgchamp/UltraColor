@@ -9,7 +9,7 @@ import org.mineacademy.fo.command.SimpleCommand;
 @AutoRegister
 public final class ColorCommand extends SimpleCommand {
 	public ColorCommand() {
-		super("color|c");
+		super("ultracolor|uc");
 		setPermission(UltraColorPermissions.COLOR);
 		setPermissionMessage(Localization.Other.NO_PERMISSION.replace("{permission}", UltraColorPermissions.COLOR));
 		setDescription("Opens a menu to select your chat and/or name colors.");
